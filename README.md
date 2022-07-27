@@ -15,7 +15,7 @@ In this project, an web application to plan and track a gym routine will be deli
 * As a gym goer, I want to be able to check mark the excersizes I complete for the choosen routine
 
 
-## Acceptance Criteria
+## Acceptance Criteraddia
 
 
 ```md
