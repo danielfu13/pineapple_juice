@@ -1,6 +1,6 @@
 # GYM ROUTINE PLANNER AND TRACKER
 
-In this project, an web application to plan and track a gym routine will be delivered. It feature MERN technology
+In this project, a web application to plan and track a gym routine will be delivered. It features MERN technology
 
 ## User Stories
 
@@ -12,10 +12,10 @@ In this project, an web application to plan and track a gym routine will be deli
 
 * As a gym goer, I want to be able to pick from a list the routine(s) I can follow for the day
 
-* As a gym goer, I want to be able to check mark the excersizes I complete for the choosen routine
+* As a gym goer, I want to be able to mark the excersizes I complete for the choosen routine
 
 
-## Acceptance Criteraddia
+## Acceptance Criteria
 
 
 ```md
@@ -25,6 +25,6 @@ THEN I am able to click one of the rows to see comments I left
 WHEN I scroll down the main page I see another list containing the routines I can follow for my workout day
 THEN I am able to click on one of four different routines which are LEGS ROUTINE, CARDIO ROUTINE, ARMS ROUTINE, 
 WHEN I click in a given routine a new window opens up and a count timer starts
-THEN I can check mark the excersizes I completed and leave comments
+THEN I can mark the excersizes I completed and leave comments
 WHEN I submit the routine a confirmtation window opens up and the timer stops
 THEN I am taken to the main page where I can see the routine and excersizes submitted
