@@ -41,8 +41,6 @@ Another way of running this project is by downloading the github repository. Mak
 
 After all the packages are installed, use the commands:
 
-`$ cd Develop/`
-
 `$ npm run develop`
 
  ## Screenshots
