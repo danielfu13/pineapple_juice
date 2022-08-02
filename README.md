@@ -1,72 +1,107 @@
-## Interactive MERN Stack Single-Page Application
+# Exercise-Tracker App
 
-# Getting Started with Create React App
+  ## Table of contents
+  - [Description](#Description)
+  - [User Story](#User)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Screenshots](#Screenshots)
+  - [Contributors](#Contributors)
+  - [Technologies Used](#Technologies)
+  - [Repository Link](#Repository)
+  - [Project Group Members](#Project) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Project Description
 
-## Available Scripts
+  This task for this project was to create an interactive MERN Stack Single-Page application. As a group, we have created a user-focused MERN app using a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end, implementing user authentication with JWT to build a user-focused platform. We have created a Exercise-Tracker App that helps users keep track of daily workouts. 
+  
+  ## User Story
 
-In the project directory, you can run:
+  * As a user I want to be able to record and track my daily workout routines. 
 
-### `npm start`
+  * As a user I want to be able to ask workout related questions through a forum.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  * As a user I want to be able to view workout routines for others
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  * As a user I want to be able to add a weekly/daily workout schedule
 
-### `npm test`
+  * As a user I want to be able to add my own set of exercises
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## Installation 
 
-### `npm run build`
+  To use application, click on the deployed link <a href="https://secure-inlet-28399.herokuapp.com/">here</a>.
+  
+  ## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use this application, clicked on the deployed link above. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Another way of running this project is by downloading the github repository. Make sure all the npm packages are downloaded using the command: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`$ npm install`
 
-### `npm run eject`
+After all the packages are installed, use the commands:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`$ cd Develop/`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`$ npm run develop`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ ## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Below are some screenshots of our deloyed application:
 
-## Learn More
+ Homepage
+![homepage](/assets/images/homepage.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Login Page
+![Login Page](/assets/images/login2.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Sign Up Page
+![Sign Up Page](/assets/images/signup2.jpg)
 
-### Code Splitting
+Create New Post
+![Create New Post](/assets/images/new%20post1.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+  ## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  To contribute to this application, create a pull request.
+  Here are the steps needed for doing that:
+  - Fork the repo
+  - Create a feature branch (git checkout -b new-branch)
+  - Commit your new feature (git commit -m 'Add feature')
+  - Push your branch (git push)
+  - Create a new Pull Request
 
-### Making a Progressive Web App
+  ## Technologies Used
+    * HTML
+    * CSS
+    * JavaScript
+    * Express
+    * Sequelize
+    * apollo-server-express
+    * Bcrypt
+    * Dotenv
+    * jsonwebtoken
+    * mongoose
+    * graphql
+    * react
+    * react-dom
+    * react-router-dom
+    * react-scripts
+    * bootstrap
+    * jwt-decode
+    * web-vitals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Repository Link
+To view our Github Repository, click on our <a href="https://github.com/danielfu13/pineapple_juice">Github Respository</a>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  ## Project Group Members:
+Daniel Fu
 
-### Deployment
+Yonis Hussein
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Katyayini Bhatnagar
 
-### `npm run build` fails to minify
+Javier Muriel Palocios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
