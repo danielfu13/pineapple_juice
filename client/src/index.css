@@ -978,6 +978,10 @@ a:hover {
   background-color: #1b89bc !important;
 }
 
+.bg-newheader{
+  background-color: #800020 !important;
+}
+
 /* DISPLAY */
 .display-none {
   display: none !important;
@@ -1013,6 +1017,21 @@ a:hover {
   outline: none;
   color: #1a1a1a;
   background-color: #aeaeae;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.btn-login{
+  text-align: center;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  margin: 0;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  outline: none;
+  color: #AEAEAE;
+  background-color: #770737;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -1601,8 +1620,8 @@ label form [type='radio'] {
     max-width: 75%;
   }
   .col-lg-10 {
-    flex: 0 0 83.33333%;
-    max-width: 83.33333%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
   .col-lg-11 {
     flex: 0 0 91.66667%;
