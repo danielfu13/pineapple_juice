@@ -16,7 +16,7 @@ const ExerciseList = ({
       {showTitle && <h3>{title}</h3>}
       {exercises &&
         exercises.map((exercise) => (
-          <div key={exercise._id} className="card mb-3">
+          <div key={exercise._id} className="cardwidth ml-4 mb-3">
             <h4 className="card-header bg-cardheader  text-gray p-0 m-0">
               {showUsername ? (
                 <Link
@@ -37,10 +37,10 @@ const ExerciseList = ({
               )}
                 <p>{exercise.exerciseDesc}</p>
                 <Link
-              className="btn btn-primary btn-block btn-squared"
+              className="btn-new btn-block bg-cardheader btn-squared"
               to={`/exercises/${exercise._id}`}
             >
-              See suggestions and tips for this workout.
+              See suggestions and tips for this workout!
             </Link>
             </h4>
                        

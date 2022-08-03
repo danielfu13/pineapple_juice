@@ -41,7 +41,7 @@ const CommentForm = ({ exerciseId }) => {
 
   return (
     <div>
-      <h4> Share experience or enter suggestions about this workout:</h4>
+      <h4> Enter suggestions:</h4>
 
       {Auth.loggedIn() ? (
         <>
@@ -50,7 +50,6 @@ const CommentForm = ({ exerciseId }) => {
               characterCount === 280 || error ? 'text-danger' : ''
             }`}
           >
-            Character Count: {characterCount}/280
             {error && <span className="ml-2">{error.message}</span>}
           </p>
           <form
@@ -60,7 +59,6 @@ const CommentForm = ({ exerciseId }) => {
             <div className="col-12 col-lg-9">
               <textarea
                 name="commentText"
-                placeholder="Add your comment..."
                 value={commentText}
                 className="form-input w-100"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
@@ -70,15 +68,15 @@ const CommentForm = ({ exerciseId }) => {
 
             <div className="col-12 col-lg-3">
               <button className="btn btn-primary btn-block py-3" type="submit">
-                Add Comment
+                Post
               </button>
             </div>
           </form>
         </>
       ) : (
         <p>
-          You need to be logged in to share your exercises. Please{' '}
-          <Link to="/login">login</Link> or <Link to="/signup">signup.</Link>
+          Please sign in to share your suggestions. {' '}
+          <Link to="/login">Login</Link> / <Link to="/signup">Signup.</Link>
         </p>
       )}
     </div>
