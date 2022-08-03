@@ -29,7 +29,7 @@
 
   ## Installation 
 
-  To use application, click on the deployed link <a href="https://secure-inlet-28399.herokuapp.com/">here</a>.
+  To use application, please click on our <a href="https://thawing-thicket-51875.herokuapp.com/">deployed Heroku link</a>.
   
   ## Usage
 
