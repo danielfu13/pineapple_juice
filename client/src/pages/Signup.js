@@ -5,6 +5,7 @@ import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../utils/mutations';
 
 import Auth from '../utils/auth';
+import image from '../assets/signup.jpg';
 
 const Signup = () => {
   const [formState, setFormState] = useState({
@@ -39,15 +40,15 @@ const Signup = () => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
+    <main className="flex-row justify-start mb-4">
       <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
+        <div className="card mt-2">
+          <h4 className="card-header bg-newheader text-light p-2">Register</h4>
           <div className="card-body">
             {data ? (
               <p>
-                Your account was successfully created! You may now head{' '}
-                <Link to="/">back to the homepage.</Link>
+                Your account was successfully created! You may now return{' '}
+                <Link to="/">to homepage.</Link>
               </p>
             ) : (
               <form onSubmit={handleFormSubmit}>
@@ -76,11 +77,11 @@ const Signup = () => {
                   onChange={handleChange}
                 />
                 <button
-                  className="btn btn-block btn-primary"
+                  className="btn-login btn-block btn-primary"
                   style={{ cursor: 'pointer' }}
                   type="submit"
                 >
-                  Submit
+                  Sign Up
                 </button>
               </form>
             )}
@@ -93,6 +94,9 @@ const Signup = () => {
           </div>
         </div>
       </div>
+      <div>
+        <img  src={image} className="ml-4 mt-2" width="400" height="300" alt="login" />
+        </div>
     </main>
   );
 };

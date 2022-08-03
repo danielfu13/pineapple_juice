@@ -4,6 +4,7 @@ import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
 
 import Auth from '../utils/auth';
+import image from '../assets/login.jpg';
 
 const Login = (props) => {
   const [formState, setFormState] = useState({ email: '', password: '' });
@@ -41,7 +42,7 @@ const Login = (props) => {
   };
 
   return (
-    <main className="flex-row justify-Start mb-4">
+    <main className="flex-row justify-start mb-4">
       <div className="col-12 col-lg-10">
         <div className="card">
           <h4 className="card-header bg-newheader text-light p-2">Login</h4>
@@ -86,7 +87,11 @@ const Login = (props) => {
             )}
           </div>
         </div>
+        
       </div>
+      <div>
+        <img  src={image} width="500" height="326" alt="login" />
+        </div>
     </main>
   );
 };

@@ -81,7 +81,7 @@ const ExerciseForm = () => {
             <div className="col-12 col-lg-9">
               <textarea
                 name="exerciseDesc"
-                placeholder="Here's a new exercise..."
+                placeholder="Enter exercise description"
                 value={exerciseDesc}
                 className="form-input w-100"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
@@ -90,7 +90,7 @@ const ExerciseForm = () => {
             </div>
 
             <div className="col-12 col-lg-3">
-              <button className="btn btn-primary btn-block py-3" type="submit">
+              <button className="btn-add btn-primary btn-block py-3" type="submit">
                 Add
               </button>
             </div>
@@ -103,7 +103,7 @@ const ExerciseForm = () => {
         </>
       ) : (
         <span>
-          <img className="img-position" src={image} width="1200" alt="Image" />
+          <img className="img-position" src={image} width="1200" height="700" alt="Image" />
           <span className="span-position">Please log in to your profile or sign up to start tracking your workouts.{' '}
           <Link to="/login">Login</Link> or <Link to="/signup">Signup.</Link>
           </span>
