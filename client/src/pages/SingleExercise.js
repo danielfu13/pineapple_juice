@@ -24,31 +24,30 @@ const SingleExercise = () => {
     return <div>Loading...</div>;
   }
   return (
-    <div className="my-3">
-      <h3 className="card-header bg-dark text-light p-2 m-0">
+    <div className="flex-row flex-start justify-space-between my-3">
+     <div>
+      <h3 className="card-header text-black p-2 m-0">
         {exercise.exerciseUser} <br />
         <span style={{ fontSize: '1rem' }}>
-         added this exercise on {exercise.createdAt}
+         {exercise.createdAt}
         </span>
       </h3>
-      <div className="bg-light py-4">
+      <div className="py-4">
         <blockquote
           className="p-4"
           style={{
             fontSize: '1.5rem',
-            fontStyle: 'italic',
-            border: '2px dotted #1a1a1a',
             lineHeight: '1.5',
           }}
         >
           {exercise.exerciseDesc}
         </blockquote>
       </div>
-
-      <div className="my-5">
+       </div>
+      <div className="mt-0 mb-5">
         <CommentList comments={exercise.comments} />
       </div>
-      <div className="m-3 p-4" style={{ border: '1px dotted #1a1a1a' }}>
+      <div className="col-24 m-3 p-4">
         <CommentForm exerciseId={exercise._id} />
       </div>
     </div>
